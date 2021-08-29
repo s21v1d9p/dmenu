@@ -12,13 +12,13 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
-#include "/home/svdp/.cache/wal/colors-wal-dmenu.h"
-//static const char *colors[SchemeLast][2] = {
+static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-//	[SchemeNorm] = { "#bbbbbb", "#222222" },
-//	[SchemeSel] = { "#eeeeee", "#005577" },
-//	[SchemeOut] = { "#000000", "#00ffff" },
-//};
+	[SchemeNorm] = { "#b2b9b7", "#080916" },
+	[SchemeSel] = { "#b2b9b7", "#334F62" },
+	[SchemeOut] = { "#b2b9b7", "#557288" },
+};
+
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 0;
